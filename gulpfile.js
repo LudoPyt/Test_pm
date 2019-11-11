@@ -7,7 +7,7 @@ const cssnano = require("cssnano");
 const browserSync = require('browser-sync').create();
 
 function style(done) {
-  return gulp.src('./src/sass/*.sass')
+  return gulp.src('./src/scss/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass())
     .on('error', sass.logError)
@@ -22,8 +22,8 @@ function style(done) {
 function watch() {
   browserSync.init({ server: { baseDir: './dist' } });
 
-  gulp.watch('./src/sass/*.sass', style);
-  gulp.watch('./src/sass/**/*.sass', style);
+  gulp.watch('./src/scss/*.scss', style);
+  gulp.watch('./src/scss/**/*.scss', style);
   gulp.watch('./src/**/**/*.html').on('change', browserSync.reload);
   gulp.watch('./src/javascript/**/**/*.js').on('change', browserSync.reload)
 }

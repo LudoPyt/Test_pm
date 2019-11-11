@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Sackers Gothic Std';
+    src: url('SackersGothicStd-Medium.woff2') format('woff2'),
+        url('SackersGothicStd-Medium.woff') format('woff'),
+        url('SackersGothicStd-Medium.ttf') format('truetype'),
+        url('SackersGothicStd-Medium.svg#SackersGothicStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sackers Gothic Std';
+    src: url('SackersGothicStd-Light.woff2') format('woff2'),
+        url('SackersGothicStd-Light.woff') format('woff'),
+        url('SackersGothicStd-Light.ttf') format('truetype'),
+        url('SackersGothicStd-Light.svg#SackersGothicStd-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sackers Gothic Std';
+    src: url('SackersGothicStd-Heavy.woff2') format('woff2'),
+        url('SackersGothicStd-Heavy.woff') format('woff'),
+        url('SackersGothicStd-Heavy.ttf') format('truetype'),
+        url('SackersGothicStd-Heavy.svg#SackersGothicStd-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ATSackersGothic';
+    src: url('ATSackersGothic-Light.woff2') format('woff2'),
+        url('ATSackersGothic-Light.woff') format('woff'),
+        url('ATSackersGothic-Light.ttf') format('truetype'),
+        url('ATSackersGothic-Light.svg#ATSackersGothic-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sackers Gothic Std';
+    src: url('SackersGothicStd-Heavy_1.woff2') format('woff2'),
+        url('SackersGothicStd-Heavy_1.woff') format('woff'),
+        url('SackersGothicStd-Heavy_1.ttf') format('truetype'),
+        url('SackersGothicStd-Heavy_1.svg#SackersGothicStd-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sackers Gothic Std';
+    src: url('SackersGothicStd-Medium_1.woff2') format('woff2'),
+        url('SackersGothicStd-Medium_1.woff') format('woff'),
+        url('SackersGothicStd-Medium_1.ttf') format('truetype'),
+        url('SackersGothicStd-Medium_1.svg#SackersGothicStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

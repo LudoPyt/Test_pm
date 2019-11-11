@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'DraftB';
+    src: url('../fonts/DraftB/DraftBRegular.otf');
+    src: url('../fonts/DraftB/DraftBRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/DraftB/DraftBRegular.woff') format('woff'), url('../fonts/DraftB/DraftBRegular.woff2') format('woff2'), url('../fonts/DraftB/DraftBRegular.ttf') format('truetype'), url('../fonts/DraftB/DraftBRegular.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Bon Vivant Serif';
+    src: url('../fonts/bonVivant/BonVivantSerif.woff2') format('woff2'),
+        url('../fonts/bonVivant/BonVivantSerif.woff') format('woff'),
+        url('../fonts/bonVivant/BonVivantSerif.ttf') format('truetype'),
+        url('../fonts/bonVivant/BonVivantSerif.svg#BonVivantSerif') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sackers Gothic Std';
+    src: url('../fonts/sakers/SackersGothicStd-Medium_1.woff2') format('woff2'),
+        url('../fonts/sakers/SackersGothicStd-Medium_1.woff') format('woff'),
+        url('../fonts/sakers/SackersGothicStd-Medium_1.ttf') format('truetype'),
+        url('../fonts/sakers/SackersGothicStd-Medium_1.svg#SackersGothicStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
