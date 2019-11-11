@@ -13,7 +13,7 @@ class Container {
 
         this.nextPicture = document.querySelector(".next-picture .picture")
         this.currentPicture = document.querySelector(".current-picture .picture")
-        this.listContainer = document.querySelector(".listContainer")
+        this.listContainer = document.querySelector(".activities")
         this.scrollAnimText = document.querySelectorAll(".scroll-anim")
         this.mouse = { x:0, y:0 }
         this.isInView = false
@@ -36,7 +36,7 @@ class Container {
             this.activity[i].addEventListener('mouseenter', () => { this.mouseenterFunction(i); } );
         }
 
-        this.listContainer.querySelector('.activities').addEventListener('mouseleave', () => { this.leaveContainer() })
+        this.listContainer.addEventListener('mouseleave', () => { this.leaveContainer() })
 
         window.addEventListener('scroll', () => { this.scrollHandler()})
     }
